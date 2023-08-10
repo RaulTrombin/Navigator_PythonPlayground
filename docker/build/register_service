@@ -1,6 +1,6 @@
 {
-    "name":"Raul's extension of DOOM",
-    "description":"Example Extension",
+    "name":"Navigator Python Playground",
+    "description":"An extension to start coding and learn Python + navigator's functions",
     "icon":"mdi-clock-fast",
     "company":"Blue Robotics",
     "version":"1.0.0",

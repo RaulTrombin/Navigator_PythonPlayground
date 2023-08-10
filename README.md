@@ -7,11 +7,11 @@ A BlueOS extension to fast learn and test navigator's Python library.
 On BlueOS, go to Extensions and install with the following parameters.
 
 ```
-elektron.navigator_jupyter
+elektron.navigator_python_playground
 
 Navigator Playground
 
-raulelektron/navigator_jupyter
+raulelektron/navigator_python_playground
 
 latest
 
@@ -23,7 +23,7 @@ latest
     "Privileged": true,
     "Binds": [
       "/root/.config:/root/.config",
-      "/extensions/navigator_jupyterlab/notebooks:/work/notebook/persistent"
+      "/usr/blueos/extensions/navigator_python_playground/notebooks:/work/notebook/persistent"
     ],
     "PortBindings": {
       "80/tcp": [
