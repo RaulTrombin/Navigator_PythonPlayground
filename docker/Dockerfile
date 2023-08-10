@@ -10,7 +10,6 @@ RUN mkdir -p /workmkdir/notebook/persistent
 COPY ./work/entrypoint.sh /work/entrypoint.sh
 COPY work/notebooks/* /work/notebook/
 WORKDIR /work/notebook
-EXPOSE 8081
 RUN chmod -R 765 /work/*.sh
 COPY /build /build
 RUN /build/install_nginx.sh
@@ -43,12 +42,12 @@ LABEL permissions='\
 LABEL authors='[\
     {\
         "name": "Raul Trombin",\
-        "email": "raul@bluerobotics.com"\
+        "email": "raulvtormbin@gmail.com"\
     }\
 ]'
 LABEL company='{\
         "about": "",\
-        "name": "Elektron",\
+        "name": "Raul Trombin",\
         "email": "raulvtormbin@gmail.com"\
     }'
 LABEL type="example"
