@@ -29,7 +29,8 @@ LABEL permissions='\
   },\
   "HostConfig": {\
     "Privileged": true,\
-    "Binds":["/root/.config:/root/.config"],\
+    "Binds":["/root/.config:/root/.config", \
+    "/usr/blueos/extensions/navigator_python_playground/notebooks:/work/notebook/persistent"],\
     "PortBindings": {\
       "80/tcp": [\
         {\
